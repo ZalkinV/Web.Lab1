@@ -1,3 +1,7 @@
+body {
+	font-family: Arial, Helvetica;
+}
+
 header {
 	text-align: center;
 }
@@ -8,6 +12,5 @@ header {
 	background-image: url("https://picsum.photos/400/300/?random");
 	
 	color: #FFFFFF;
-	font-family: Arial, Helvetica;
 	text-align: center;
 }
