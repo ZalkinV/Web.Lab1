@@ -9,19 +9,27 @@ header {
 }
 
 .image_w_text {
+	position: relative;
 	width: 400px;
 	height: 300px;
-	background-image: url("https://picsum.photos/300/300/?random");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	
 	margin: 0.5%;
-	float: left;
 	
-	color: #FFFFFF;
-	text-align: center;
+	float: left;
 }
 
 .image_w_text:hover {
 	transform: scale(1.05, 1.05);
+}
+
+.image_w_text img {
+	width: 100%;
+	height: 100%;
+}
+
+.image_w_text h2 {
+	color: #FFFFFF;
+	position: absolute;
+	top: 2%;
+	width: 100%;
+	text-align: center;
 }
