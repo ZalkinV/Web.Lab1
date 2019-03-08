@@ -15,10 +15,9 @@ header {
 
 .image_w_text {
 	position: relative;
-	width: 400px;
-	height: 300px;
+	width: 30%;
 	margin: 0.5%;
-	
+
 	float: left;
 }
 
