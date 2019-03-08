@@ -19,3 +19,7 @@ header {
 	color: #FFFFFF;
 	text-align: center;
 }
+
+.image_w_text:hover {
+	transform: scale(1.05, 1.05);
+}
