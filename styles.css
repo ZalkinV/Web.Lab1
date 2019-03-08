@@ -45,3 +45,14 @@ header {
 		margin: 1%;
 	}
 }
+
+@media screen and (max-width: 700px) {
+	.image_w_text {
+		width: 80%;
+		margin: 1%;
+	}
+	
+	header {
+		font-size: 0.7em;
+	}
+}
