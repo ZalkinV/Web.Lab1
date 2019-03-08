@@ -37,4 +37,11 @@ header {
 	top: 2%;
 	width: 100%;
 	text-align: center;
+}	
+
+@media screen and (max-width: 900px) {
+	.image_w_text {
+		width: 40%;
+		margin: 1%;
+	}
 }
