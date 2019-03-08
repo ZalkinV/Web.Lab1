@@ -10,7 +10,8 @@ header {
 }
 
 .activities {
-
+	margin: auto;
+	width: 90%;
 }
 
 .image_w_text {
