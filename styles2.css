@@ -1,0 +1,59 @@
+body {
+	font-family: Arial, Helvetica;
+	margin: 0px;
+}
+
+header {
+	text-align: center;
+	border-bottom: 3px solid black;
+	margin-bottom: 5px;
+}
+
+.activities {
+	width: 1230px;
+	height: 620px;
+	margin: 0 auto;
+}
+
+.image_w_text {
+	margin: 5px;
+	line-height: 0px;
+
+	float: left;
+}
+
+.image_w_text img {
+	width: 100%;
+	height: 100%;
+	border-radius: 5%;
+}
+
+
+@media screen and (max-width: 1200px) {
+	.activities {
+		width: 820px;
+		height: 930px;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	.activities {
+		width: 410px;
+		height: 1860px;
+	}
+}
+
+@media screen and (max-width: 410px) {
+	header {
+		font-size: 0.7em;
+	}
+	
+	.activities {
+		width: 90%;
+	}
+	
+	.image_w_text {
+		width: 100%;
+		margin: 5px 0px;
+	}
+}
