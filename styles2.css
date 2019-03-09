@@ -23,6 +23,10 @@ header {
 	float: left;
 }
 
+.image_w_text:hover {
+	transform: scale(1.02, 1.02);
+}
+
 .image_w_text img {
 	width: 100%;
 	height: 100%;
